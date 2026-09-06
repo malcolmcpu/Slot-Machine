@@ -40,3 +40,12 @@ h2 {
   font-size: 2.5rem;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+#min-button,
+#max-button {
+  font-size: 1.25rem;
+  padding: 0.25rem 1.25rem 0.25rem 1.25rem;
+  color: white;
+  background: rgb(70, 70, 248);
+  border-radius: 0.75rem;
+}
