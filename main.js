@@ -2,6 +2,7 @@
 let wallet = 100;
 // let preppedBet = 0;
 let minimumBet = 5;
+//pseudocode
 let maximumBet = 50;
 
 let lowEnd = document.querySelector('#min-button');
