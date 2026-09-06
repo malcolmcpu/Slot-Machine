@@ -15,7 +15,7 @@ function startSlotMachine(bet) {
   let message = document.getElementById('display-outcome');
 
   if (wallet < bet) {
-    message.innerText = 'You broke as hell. Go home and be a family man.';
+    message.innerText = `You broke as hell. Go home and be a family man. Call (855)222-5542`;
   } else {
     wallet -= bet;
     let reel1 = symbols[Math.floor(Math.random() * symbols.length)];
