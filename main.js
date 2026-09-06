@@ -15,7 +15,7 @@ function startSlotMachine(bet) {
   let message = document.getElementById('display-outcome');
 
   if (wallet < bet) {
-    message.innerText = 'You broke as hell';
+    message.innerText = 'You broke as hell. Go home and be a family man.';
   } else {
     wallet -= bet;
     let reel1 = symbols[Math.floor(Math.random() * symbols.length)];
