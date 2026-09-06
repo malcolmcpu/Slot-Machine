@@ -5,6 +5,10 @@ body {
   align-items: center;
 }
 
+h1 {
+  font-size: 3rem;
+}
+
 #slot-machine {
   display: flex;
   justify-content: space-between;
@@ -16,4 +20,11 @@ body {
 #slot-machine > .reels {
   border: 1px solid black;
   padding: 1rem 1.25rem 1rem 1.25rem;
+}
+
+#buttons-container {
+  display: flex;
+  justify-content: space-around;
+  width: 15rem;
+  padding-bottom: 3rem;
 }
