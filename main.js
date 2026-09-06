@@ -11,6 +11,7 @@ const symbols = ['🍒', '🍎', '🍇', '🫡', '🎱'];
 
 //this function runs the slot machine
 function startSlotMachine(bet) {
+  //reach into HTML to access our reel and comparison outcome
   let reels = document.querySelectorAll('.reels');
   let message = document.getElementById('display-outcome');
 
