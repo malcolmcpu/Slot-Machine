@@ -2,6 +2,10 @@
 
 ### A simple browser-based slot machine game built with vanilla JavaScript. Spin three emoji reels, pick your bet, and watch your wallet go up or down.
 
+<br>
+
+[Visit Slot Machine](https://dontgambble.netlify.app/)
+
 ## Preview
 
 ![Slot Machine Screenshot](./screens/screen-slotmachine_1.png)
