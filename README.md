@@ -1,6 +1,6 @@
 # 🎰 Slot Machine 🎰
 
-#### A simple browser-based slot machine game built with vanilla JavaScript. Spin three emoji reels, pick your bet, and watch your wallet go up or down.
+### A simple browser-based slot machine game built with vanilla JavaScript. Spin three emoji reels, pick your bet, and watch your wallet go up or down.
 
 ## Preview
 
