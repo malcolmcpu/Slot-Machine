@@ -1,24 +1,34 @@
-# 🎰 Week05 Bootcamp2019 Project: Slot Machine
+# 🎰 Slot Machine 🎰
 
-### Goal: Build a Simple Slot Machine
+#### A simple browser-based slot machine game built with vanilla JavaScript. Spin three emoji reels, pick your bet, and watch your wallet go up or down.
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
+## Preview
 
-### How to submit your code for review:
+![Slot Machine Screenshot](./screens/screen-slotmachine_1.png)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## Features
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+- 3 reels, each landing on one of 5 random symbols (🍒 🍎 🍇 🫡 🎱)
+- Start with a $100 wallet and choose a $5 or $50 bet
+- Three matching symbols pays 3x your bet
+- The last reel matching either of the first two pays 1.5x your bet
+- Wallet balance and win/loss message update after every spin
+- A message appears when you can't afford your bet
+
+## Built With
+
+- HTML, CSS, JavaScript (no frameworks or libraries)
+
+## How to Play
+
+1. Check your wallet at the top of the page.
+2. Click **$5 Bet** or **$50 Bet** to spin the reels.
+3. Match symbols to win. The result shows under the buttons.
+4. Keep spinning until your wallet can't cover the bet.
+
+## What I Learned
+
+- Picking random items from an array with `Math.random()` to choose each reel's symbol
+- Keeping track of game state (the wallet) in a variable and updating the page after each spin
+- Selecting elements and responding to clicks with `querySelector` and event listeners
+- Using one function for both bet buttons by passing the bet amount as an argument
